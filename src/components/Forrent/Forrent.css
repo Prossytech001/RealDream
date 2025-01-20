@@ -1,0 +1,128 @@
+.forrentcons h1{
+    font-weight: bold;
+    font-size: 13px;
+    place-items: center;
+    display: flex;
+    align-items: center;
+}
+.forrentcons h2{
+    font-size: 40px;
+    margin: 10px 0;
+}
+.forrentcons p{
+    max-width: 80%;
+    font-size: 14px;
+}
+.forrentcons{
+    padding: 1.5rem;
+}
+
+
+
+
+
+
+
+
+.forrent{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+
+.forrentcos{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+  
+    place-items: center;
+    gap: 10px;
+}
+
+
+
+.forrents1 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   
+}
+.forrents1{
+    width: 100%;
+    position: relative;
+    background-color: var(--white--);
+    height: 370px;
+}
+.rent-fors h1{
+    font-size: 1rem;
+}
+.folrs{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 0.2rem;
+    font-size: 14px;
+    color: var(--white--);
+}
+.rentflat{
+    display: flex;
+    justify-content: space-between;
+}
+.rent-fors{
+    padding: 0.5rem;
+    line-height: 30px;
+}
+.rentflat h1{
+    font-size: 0.5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.315);
+}
+.rentflat button{
+    padding: 0.5rem 1rem;
+    background-color: var(--orange--);
+    color: var(--white--);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.rentflat button:hover{
+    background-color: var(--blue--);
+}
+@media All and (max-width: 1120px){
+    .forrentcos{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+       
+        place-items: center;
+        row-gap: 20px;
+    }
+}
+@media All and (max-width: 840px){
+    .forrentcos{
+        display: grid;
+        grid-template-columns:1fr 1fr  ;
+       
+        place-items: center;
+        row-gap: 20px;
+    }
+}
+@media All and (max-width: 440px){
+    .forrentcos{
+        display: grid;
+        grid-template-columns:1fr   ;
+        
+        place-items: center;
+        row-gap: 20px;
+    }
+    .forrents1{
+        width: 100%;
+    }
+    .forrentcons p{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}

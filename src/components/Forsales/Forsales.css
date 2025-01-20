@@ -1,0 +1,129 @@
+.forsalecons h1{
+    font-weight:  bold;
+    font-size: 13px;
+    place-items: center;
+    display: flex;
+    align-items: center;
+}
+.forsalecons h2{
+    font-size: 40px;
+    margin: 10px 0;
+}
+.forsalecons p{
+    max-width: 80%;
+    font-size: 14px;
+}
+.forsalecons{
+    padding: 1.5rem;
+}
+.sale-fors h1{
+   font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+.forsale{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+.forsale-content{
+
+}
+
+.forsalecos{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: ;
+    place-items: center;
+    gap: 20px;
+}
+
+
+
+.forsales1 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   
+}
+.forsales1{
+    width: 100%;
+    position: relative;
+    background-color: var(--white--);
+    height: 370px;
+}
+.folas{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 0.2rem;
+    font-size: 14px;
+    color: var(--white--);
+}
+.saleflat{
+    display: flex;
+    justify-content: space-between;
+}
+.sale-fors{
+    padding: 0.5rem;
+    line-height: 30px;
+}
+.saleflat h1{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.315);
+}
+.saleflat button{
+    padding: 0.5rem 1rem;
+    background-color: var(--orange--);
+    color: var(--white--);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.saleflat button:hover{
+    background-color: var(--blue--);
+}
+@media All and (max-width: 1120px){
+    .forsalecos{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        grid-template-rows: ;
+        place-items: center;
+        row-gap: 20px;
+    }
+}
+@media All and (max-width: 840px){
+    .forsalecos{
+        display: grid;
+        grid-template-columns:1fr 1fr  ;
+        grid-template-rows: ;
+        place-items: center;
+        row-gap: 20px;
+    }
+}
+@media All and (max-width: 440px){
+    .forsalecos{
+        display: grid;
+        grid-template-columns:1fr   ;
+        grid-template-rows: ;
+        place-items: center;
+        row-gap: 20px;
+    }
+    .forsales1{
+        width: 100%;
+    }
+    .forsalecons p{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}

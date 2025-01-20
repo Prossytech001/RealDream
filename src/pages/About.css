@@ -1,0 +1,21 @@
+/*.swiper-slide img{
+  width: 500px;
+  object-fit: cover;
+}
+.slider-nav{
+    
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.swiper-slide{
+    width: 400px;
+}
+.swiper-container{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}*/

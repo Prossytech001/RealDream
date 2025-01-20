@@ -1,0 +1,98 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    place-items: center;
+    padding: 1rem;
+}
+.contactco h1{
+    display: flex;
+    place-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.contactco h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.contactcon{
+    background-color: var(--white--);
+    height: 60rem;
+    place-items: center;
+    line-height: 30px;
+    padding: 2rem 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.concon p{
+    max-width: 30rem;
+}
+.contact-content{
+    width: 90%;
+    
+}
+.conput{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+.concon{
+    width: 100%;
+    place-items: center;
+    padding: 0 20px;
+}
+.coninput{
+    width: 100%;
+    place-items: center;
+}
+.conput input{
+    width: 30rem;
+    height: 2.5rem;
+    padding: 0 20px;
+    
+}
+.conput textarea{
+    width: 30rem;
+}
+.coninput .submit{
+    padding: 0.5rem 1rem;
+    background-color: var(--orange--);
+    color: var(--white--);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.coninput .submit:hover{
+    background-color: var(--blue--);
+}
+@media All and (max-width: 460px){
+    .conput input{
+        width: 18rem;
+        height: 2.5rem;
+        
+    }
+    .conput textarea{
+        width: 18rem;
+    }
+    .contact-content{
+        width: 100%;
+        
+    }
+}
+
+@media All and (max-width: 330px){
+    .conput input{
+        width: 15rem;
+        height: 2.5rem;
+        
+    }
+    .conput textarea{
+        width: 15rem;
+    }
+    .contact-content{
+        width: 100%;
+        
+    }
+}

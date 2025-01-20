@@ -1,0 +1,97 @@
+.swiper-slide img{
+    width: 500px;
+    object-fit: cover;
+  }
+  .slider-nav{
+      
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+  .swiper-slide{
+      width: 400px;
+  }
+  .swiper-container{
+      width: 500px;
+      height: 500px;
+      margin: 0 auto;
+      position: relative;
+  }
+  /*container*/
+  .ln1content{
+    min-height: auto;
+  }
+  .ln1text{
+   font-size: 30px;
+    
+    margin: 2rem;
+  }
+  .hou-fea{
+    position: relative;
+    transition: 0.5s;
+    width: 500px;
+  }
+  .hou-fea-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    line-height: 30px;
+    
+  }
+  .hou-fea img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .featue{
+    background-color: green;
+    padding: 0;
+    place-items: center;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    color: var(--white--);
+  }
+  
+  .forsle{
+    background-color: var(--black--);
+    padding: 0;
+    place-items: center;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    color: var(--white--);
+  }
+  .Amout{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    color: var(--blue--);
+    font-weight: bolder;
+  }
+  .hou-fea:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  @media All and (max-width: 460px){
+    .hou-fea{
+        width: 350px;
+
+    }
+    .ln1content{
+        min-height: 50vh;
+      }
+  }
+  @media All and (max-width: 391px){
+    .hou-fea{
+        width: 300px;
+    }
+  }
+  @media All and (max-width: 361px){
+    .hou-fea{
+        width: 250px;
+    }
+  }
+  

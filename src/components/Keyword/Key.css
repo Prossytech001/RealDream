@@ -1,0 +1,56 @@
+.key{
+    display: inline-block;
+    padding: 9px 10px;
+    width: 100%;
+  
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    
+
+.keyinp{
+    display: inline-flex;
+    width: 100%;
+}
+.keyinp input{
+    width: 90%;
+    padding: 9px;
+    border-radius: 5px  0 0 5px;
+    border: 1px solid #302f2fc4;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: var(--fontf--);
+}
+.keyinp  button a{
+    width: 100%;
+    padding: 5px;
+    background-color: var(--orange--);
+    color: var(--white--);
+    border: none;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+}
+.keyinp  button a:hover{
+    background-color: var(--blue--);
+}
+.keyinp  button {
+    width: 100%;
+    padding: 5px;
+    background-color: var(--orange--);
+    color: var(--white--);
+    border: none;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+}
+.keyinp  button:hover{
+    background-color: var(--blue--);
+}

@@ -1,0 +1,103 @@
+.sale-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    justify-content: space-evenly;
+}
+.conh1{
+    font-size: 30px;
+    
+    margin: 2rem;
+}
+.sale-card1 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.sale-card2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+   
+}
+.sale-card3 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+.sale-card1{
+    width: 320px;
+    position: relative;
+    background-color: var(--white--);
+    height: 420px;
+}
+.sale-card2{
+    width: 320px;
+    position: relative;
+    background-color: var(--white--);
+    height: 420px;
+}
+.sale-card3{
+    width: 320px;
+    position: relative;
+    background-color: var(--white--);
+    height: 420px;
+}
+.fors{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 0.2rem;
+    font-size: 14px;
+    color: var(--white--);
+}
+.sale-flat{
+    display: flex;
+    justify-content: space-between;
+}
+.sale-conts{
+    padding: 1rem;
+    line-height: 30px;
+}
+.sale-flat h1{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.315);
+}
+.sale-flat button{
+    padding: 0.5rem 1rem;
+    background-color: var(--orange--);
+    color: var(--white--);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sale-flat button:hover{
+    background-color: var(--blue--);
+}
+@media All and (max-width: 860px){
+   .sale-card{
+    display: block;
+    padding: 0 10px;
+   }
+   .sale-card1{
+    width: 100%;
+   }
+   .sale-card2{
+    width: 100%;
+   }
+   .sale-card3{
+    width: 100%;
+   }
+  }
+  
+  
